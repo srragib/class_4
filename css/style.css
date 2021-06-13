@@ -1,0 +1,198 @@
+/* priority 
+ h1{
+    color: blue;
+    color: red;
+    color: green;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family: candara; text-transform: capitalize;}
+h1{
+    margin-top: 100px;
+    font-family: candara;
+}
+h2{text-align: center;}
+
+/* layout 1 */
+.header{
+    min-height: 50px;
+    background-color: rgb(148, 148, 148);
+    overflow: hidden;
+}
+.wrapper{
+    border: 2px solid blue;
+    overflow: hidden;
+    
+}
+.left{
+    min-height: 100px;
+    background-color: #e74c3c;
+    width: 60%;
+    float: left;
+}
+.right{
+    min-height: 100px;
+    background-color: #20bf6b;
+    width: 40%;
+    float: right;
+}
+.footer{
+    min-height: 100px;
+    background-color: rgb(102, 102, 102);
+    /* clear: both; */
+}
+
+.box{
+    overflow: hidden;
+}
+.single{
+    min-height: 200px;
+    width: 33.33%;
+    float: left;
+    border: 1px solid black;
+}
+.tomato{
+    background-color: tomato;
+}
+.olive{
+    background-color: olive;
+}
+.cyan{
+    background-color: cyan;
+}
+
+
+/* layout 2 */
+.logo{
+    background-color: #e74c3c;
+    min-height: 50px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+}
+.menu{
+    background-color: blue;
+    min-height: 50px;
+    width: 80%;
+    float: left;
+    border: 1px solid black;
+}
+.banner{
+    min-height: 200px;
+    background-color: #27ae60;
+    border: 1px solid black;
+}
+.team{
+    overflow: hidden;
+}
+.team1{
+    min-height: 200px;
+    width: 25%;
+    float: left;
+    border: 1px solid black;
+}
+.contact2{
+    /* min-height: 300px; */
+    background-color: #000;
+    overflow: hidden;
+}
+.left2{
+    background-color: #a5b1c2;
+    min-height: 300px;
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
+.right2{
+    background-color: #4b6584;
+    min-height: 300px;
+    width: 50%;
+    float: right;
+    border: 1px solid black;
+}
+
+/* layout 3 */
+.header3{
+    overflow: hidden;
+}
+.logo3{
+    min-height: 50px;
+    background-color: #4b7bec;
+    float: left;
+    width: 15%;
+    border: 1px solid black;
+}
+.menu3{
+    min-height: 50px;
+    background-color: #fc5c65;
+    float: left;
+    width: 60%;
+    border: 1px solid black;
+}
+.contact3{
+    min-height: 50px;
+    background-color: #4b6584;
+    float: left;
+    width: 25%;
+    border: 1px solid black;
+}
+.service{
+    overflow: hidden;
+}
+.service1{
+    width: 15%;
+    background-color: #f19066;
+    min-height: 250px;
+    float: left;
+    border: 1px solid black;
+}
+.service2{
+    width: 40%;
+    background-color: #f5cd79;
+    min-height: 250px;
+    float: left;
+    border: 1px solid black;
+}
+.service3{
+    width: 15%;
+    background-color: #546de5;
+    min-height: 250px;
+    float: left;
+    border: 1px solid black;
+}
+.service4{
+    width: 30%;
+    background-color: #e15f41;
+    min-height: 250px;
+    float: left;
+    border: 1px solid black;
+}
+
+/* layout 4 */
+.sidenav{
+    background-color: #111;
+    min-height: 400px;
+    width: 25%;
+    float: left;
+}
+.sidenav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+.sidenav a:hover{
+    background-color: #fff;
+    color: black;
+}
+.content4{
+    min-height: 400px;
+    background-color: #dfe4ea;
+    width: 75%;
+    float: left;
+    padding: 20px;
+}
